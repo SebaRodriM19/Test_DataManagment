@@ -18,7 +18,11 @@ namespace Exercise.ArtGallery
         public void Run()
         {
             _repositoryQuery.QueryOne();
+            Console.WriteLine();
+            Console.WriteLine();
             _repositoryQuery.QueryTwo();
+            Console.WriteLine();
+            Console.WriteLine();
            _repositoryQuery.QueryThree();
         }
     }
